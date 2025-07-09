@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.115.4 # lub nowsza wersja, jeśli używasz innej
+      HUGO_VERSION: 0.148.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,3 +51,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
