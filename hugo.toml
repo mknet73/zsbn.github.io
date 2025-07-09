@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
+
+[menu]
+
+  [[menu.main]]
+    name = "Strona główna"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "O szkole"
+    url = "/o-szkole/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Nauczyciele"
+    url = "/nauczyciele/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Uczniowie"
+    url = "/uczniowie/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 5
